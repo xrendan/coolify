@@ -1,22 +1,22 @@
 # frozen_string_literal: true
 
-require_relative "lib/example/version"
+require_relative "lib/coolify/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "example"
-  spec.version = Example::VERSION
-  spec.authors = ["Example Owner"]
-  spec.email = ["owner@example.com"]
+  spec.name = "coolify"
+  spec.version = Coolify::VERSION
+  spec.authors = ["Brendan Samek"]
+  spec.email = ["brendan@brendansamek.com"]
 
-  spec.summary = ""
-  spec.homepage = "https://github.com/mattbrictson/gem"
+  spec.summary = "Ruby bindings and cli for coolify"
+  spec.homepage = "https://github.com/xrendan/coolify"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1"
 
   spec.metadata = {
-    "bug_tracker_uri" => "https://github.com/mattbrictson/gem/issues",
-    "changelog_uri" => "https://github.com/mattbrictson/gem/releases",
-    "source_code_uri" => "https://github.com/mattbrictson/gem",
+    "bug_tracker_uri" => "https://github.com/xrendan/coolify/issues",
+    "changelog_uri" => "https://github.com/xrendan/coolify/releases",
+    "source_code_uri" => "https://github.com/xrendan/coolify",
     "homepage_uri" => spec.homepage,
     "rubygems_mfa_required" => "true"
   }
